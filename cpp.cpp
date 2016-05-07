@@ -6,7 +6,9 @@ using namespace std;
 /* short */
 #define pb push_back
 #define print(x) cout << x << '\n'
- 
+#define Fi first
+#define Se second
+
 /* REPmacro */
 #define REPS(i, a, n) for (int i = (a); i < (n); i++)
 #define REP(i, n) for (int i = 0; i < (n); i++)
