@@ -26,7 +26,7 @@ typedef vector<vector<int> > vii;
 typedef pair<int, int> pii;
 
 /* const */
-const int INF = INT_MAX;
+const int INF = 999999999;
 const int dx[] = {0, 1, 0, -1}, dy[] = {1, 0, -1, 0};
 
 /* func */
