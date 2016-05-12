@@ -7,6 +7,7 @@ using namespace std;
 
 /* short */
 #define pb push_back
+#define mp make_pair
 #define print(x) cout << x << '\n'
 #define Fi first
 #define Se second
