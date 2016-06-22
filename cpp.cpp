@@ -40,6 +40,7 @@ typedef pair<int, int> pii;
 
 /* const */
 const int INF = 999999999;
+const double EPS = 1e-9;
 const int dx[] = {0, 1, 0, -1, 1, -1, 1, -1}, dy[] = {1, 0, -1, 0, 1, -1, -1, 1};
 
 /* func */
