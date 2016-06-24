@@ -1,6 +1,6 @@
 # .cpp-Template
 競プロ用のテンプレ
-
+Ubuntu Linuxmint用
 ## Shinobu kawaiiについて
 
 このAAは[Text to ASCII Art Generator](http://patorjk.com/software/taag)によって作られました．
