@@ -18,18 +18,18 @@ using namespace std;
 /* cpp template {{{ */
 
 /* short */
-#define pb push_back
-#define mp make_pair
-#define print(x) cout << x << '\n'
+#define pb(x) push_back(x)
+#define mp(x) make_pair(x)
 #define Fi first
 #define Se second
+#define ALL(v) (v).begin(), (v).end()
 
 /* REPmacro */
-#define REPS(i, a, n) for (int i = (a); i < (n); i++)
-#define REP(i, n) for (int i = 0; i < (n); i++)
-#define RREP(i, n) for (int i = 1; i <= (n); i++)
-#define DEPS(i, a, n) for (int i = (a); i >= n; i--)
-#define DEP(i, n) for (int i = (n); i >= 0; i--)
+#define REPS(i, a, n) for (int i = (a); i < (n); ++i)
+#define REP(i, n) REPS(i, 0, n)
+#define RREP(i, n) REPS(i, 1, n + 1)
+#define DEPS(i, a, n) for (int i = (a); i >= n; --i)
+#define DEP(i, n) DEPS(i, n, 0)
 
 /* typedef */
 typedef long long ll;
