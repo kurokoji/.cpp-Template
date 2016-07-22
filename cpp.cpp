@@ -19,7 +19,7 @@ using namespace std;
 
 /* short */
 #define pb(x) push_back(x)
-#define mp(x) make_pair(x)
+#define mp make_pair
 #define Fi first
 #define Se second
 #define ALL(v) (v).begin(), (v).end()
