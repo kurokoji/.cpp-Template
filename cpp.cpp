@@ -18,7 +18,7 @@ using namespace std;
 /* cpp template {{{ */
 
 /* short */
-#define pb(x) push_back(x)
+#define pb push_back
 #define mp make_pair
 #define Fi first
 #define Se second
