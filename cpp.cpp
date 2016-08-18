@@ -23,6 +23,8 @@ using namespace std;
 #define Fi first
 #define Se second
 #define ALL(v) (v).begin(), (v).end()
+#define X real()
+#define Y imag()
 
 /* REPmacro */
 #define REPS(i, a, n) for (int i = (a); i < (n); ++i)
@@ -37,15 +39,19 @@ typedef unsigned long long ull;
 typedef vector<int> vi;
 typedef vector<vector<int> > vii;
 typedef pair<int, int> pii;
+typedef double D;
+typedef complex<D> P;
 
 /* const */
 const int INF = 999999999;
-const double EPS = 1e-9;
+const int MOD = 1e9 + 7;
+const D EPS = 1e-9;
 const int dx[] = {0, 1, 0, -1, 1, -1, 1, -1}, dy[] = {1, 0, -1, 0, 1, -1, -1, 1};
 
 /* func */
 inline bool inside(int y, int x, int H, int W) {return y >= 0 && x >= 0 && y < H && x < W;}
 inline int in() {int x; std::cin >> x; return x;}
+template <typename T> void print(T x) { std::cout << x << '\n'; }
 template <typename T>
 void print(std::vector<T>& v, char c = ' ') {
   REP(i, v.size()) {
@@ -53,10 +59,6 @@ void print(std::vector<T>& v, char c = ' ') {
     std::cout << v[i];
   }
   std::cout << '\n';
-}
-template <typename T>
-void print(T x) {
-  std::cout << x << '\n';
 }
 
 /* }}} */
