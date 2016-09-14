@@ -41,7 +41,8 @@ struct Fast {Fast(){std::cin.tie(0);ios::sync_with_stdio(false);}} fast;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef vector<int> vi;
-typedef vector<vector<int> > vii;
+typedef vector<vi> vii;
+typedef vector<vii> viii;
 typedef pair<int, int> pii;
 typedef double D;
 typedef complex<D> P;
@@ -55,7 +56,7 @@ const int dx[] = {0, 1, 0, -1, 1, -1, 1, -1}, dy[] = {1, 0, -1, 0, 1, -1, -1, 1}
 /* func */
 inline bool inside(int y, int x, int H, int W) {return y >= 0 && x >= 0 && y < H && x < W;}
 inline int in() {int x; std::cin >> x; return x;}
-template <typename T> void print(T x) { std::cout << x << '\n'; }
+template <typename T> void print(T x) {std::cout << x << '\n';}
 template <typename T>
 void print(std::vector<T>& v, string s = " ") {
   REP(i, v.size()) {
