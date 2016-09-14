@@ -34,6 +34,9 @@ struct Fast {Fast(){std::cin.tie(0);ios::sync_with_stdio(false);}} fast;
 #define DEPS(i, a, n) for (int i = (a); i >= n; --i)
 #define DEP(i, n) DEPS(i, n, 0)
 
+/* debug */
+#define debug(x) cerr << x << " " << "(L:" << __LINE__ << ")" << '\n';
+
 /* typedef */
 typedef long long ll;
 typedef unsigned long long ull;
