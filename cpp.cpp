@@ -14,6 +14,7 @@
 using namespace std;
 
 // #define int long long
+struct Fast {Fast(){std::cin.tie(0);ios::sync_with_stdio(false);}} fast;
 
 /* cpp template {{{ */
 
@@ -65,8 +66,6 @@ void print(std::vector<T>& v, string s = " ") {
 
 signed main()
 {
-  cin.tie(0);
-  ios::sync_with_stdio(false);
 
 
   return 0;
