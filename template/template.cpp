@@ -37,18 +37,19 @@ struct Fast {Fast(){std::cin.tie(0);ios::sync_with_stdio(false);}} fast;
 /* debug */
 #define debug(x) cerr << x << " " << "(L:" << __LINE__ << ")" << '\n';
 
-/* typedef */
-typedef long long ll;
-typedef unsigned long long ull;
-typedef vector<int> vi;
-typedef vector<vi> vii;
-typedef vector<vii> viii;
-typedef pair<int, int> pii;
-typedef double D;
-typedef complex<D> P;
+/* alias */
+using ll = long long;
+using ull = unsigned long long;
+using vi = vector<int>;
+using vvi = vector<vi>;
+using vvvi = vector<vvi>;
+using pii = pair<int, int>;
+using D = double;
+using P = complex<D>;
 
 /* const */
-const int INF = 999999999;
+const int INF = 1001001001;
+const ll LINF = 1001001001001001001ll;
 const int MOD = 1e9 + 7;
 const D EPS = 1e-9;
 const int dx[] = {0, 1, 0, -1, 1, -1, 1, -1}, dy[] = {1, 0, -1, 0, 1, -1, -1, 1};
@@ -70,7 +71,7 @@ void print(std::vector<T>& v, std::string s = " ") {
 
 signed main()
 {
-
+  <+CURSOR+>
 
   return 0;
 }
